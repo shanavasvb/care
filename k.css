@@ -1,0 +1,293 @@
+.hero-section {
+    width: 1366px;
+    height: 761px;
+    background-color: var(--primary-colorsbrand-green-light);
+  }
+  
+  .hero-section .overlap {
+    position: relative;
+    width: 1142px;
+    height: 704px;
+    top: 12px;
+    left: 144px;
+  }
+  
+  .hero-section .overlap-group {
+    position: absolute;
+    width: 1120px;
+    height: 704px;
+    top: 0;
+    left: 0;
+  }
+  
+  .hero-section .foto-baixe-aqui-em {
+    position: absolute;
+    width: 420px;
+    height: 578px;
+    top: 126px;
+    left: 23px;
+    transform: rotate(180deg);
+  }
+  
+  .hero-section .div {
+    position: relative;
+    width: 449px;
+    height: 597px;
+    top: -19px;
+    left: -18px;
+  }
+  
+  .hero-section .fundo-verde {
+    position: absolute;
+    width: 420px;
+    height: 549px;
+    top: 19px;
+    left: 18px;
+    background-color: var(--primary-colorsbrand-green-light);
+  }
+  
+  .hero-section .image {
+    position: absolute;
+    width: 420px;
+    height: 547px;
+    top: 50px;
+    left: 18px;
+    transform: rotate(-180deg);
+  }
+  
+  .hero-section .luz {
+    position: absolute;
+    width: 449px;
+    height: 584px;
+    top: 0;
+    left: 0;
+    transform: rotate(-180deg);
+    mix-blend-mode: hue;
+  }
+  
+  .hero-section .div-numbers {
+    position: absolute;
+    width: 1120px;
+    height: 210px;
+    top: 0;
+    left: 0;
+  }
+  
+  .hero-section .overlap-2 {
+    position: relative;
+    height: 210px;
+    border-radius: 6px;
+  }
+  
+  .hero-section .BG {
+    position: absolute;
+    width: 1120px;
+    height: 210px;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-colorsbrand-beige);
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: var(--primary-colorsbrand-green-light);
+    transform: rotate(180deg);
+  }
+  
+  .hero-section .group-numeros {
+    position: absolute;
+    width: 861px;
+    height: 100px;
+    top: 95px;
+    left: 123px;
+  }
+  
+  .hero-section .numero {
+    width: 154px;
+    height: 90px;
+    left: 711px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .hero-section .text {
+    top: 66px;
+    left: 0;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary-colorsbrand-green);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+  
+  .hero-section .title {
+    top: 0;
+    left: 28px;
+    transform: rotate(180deg);
+    font-size: 48px;
+    line-height: 62.4px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--secondary-colorsgray-headline);
+    letter-spacing: 0;
+  }
+  
+  .hero-section .numero-2 {
+    width: 137px;
+    height: 90px;
+    left: 370px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .hero-section .text-wrapper {
+    top: 0;
+    left: 9px;
+    transform: rotate(180deg);
+    font-size: 48px;
+    line-height: 62.4px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--secondary-colorsgray-headline);
+    letter-spacing: 0;
+  }
+  
+  .hero-section .overlap-group-wrapper {
+    width: 84px;
+    height: 85px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .hero-section .overlap-group-2 {
+    position: relative;
+    width: 80px;
+    height: 85px;
+  }
+  
+  .hero-section .text-2 {
+    top: 61px;
+    left: 16px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary-colorsbrand-green);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+  
+  .hero-section .title-2 {
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    font-size: 48px;
+    line-height: 62.4px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--secondary-colorsgray-headline);
+    letter-spacing: 0;
+  }
+  
+  .hero-section .divider {
+    left: 272px;
+    position: absolute;
+    width: 1px;
+    height: 83px;
+    top: 0;
+    object-fit: cover;
+  }
+  
+  .hero-section .img {
+    left: 655px;
+    position: absolute;
+    width: 1px;
+    height: 83px;
+    top: 0;
+    object-fit: cover;
+  }
+  
+  .hero-section .text-3 {
+    width: 648px;
+    height: 332px;
+    top: 264px;
+    left: 494px;
+    position: absolute;
+    transform: rotate(180deg);
+  }
+  
+  .hero-section .button-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px 32px;
+    position: absolute;
+    top: 0;
+    left: 37px;
+    background-color: var(--primary-colorsbrand-green);
+    border-radius: 40px;
+  }
+  
+  .hero-section .post-caretaker {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--secondary-colorswhite);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .hero-section .subtitle {
+    position: absolute;
+    width: 585px;
+    top: 64px;
+    left: 24px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--secondary-colorsgray-paragraph);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .hero-section .title-3 {
+    width: 605px;
+    top: 160px;
+    left: 37px;
+    font-size: 52px;
+    line-height: 67.6px;
+    position: absolute;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--secondary-colorsgray-headline);
+    letter-spacing: 0;
+  }
+  
+  .hero-section .heat-text {
+    position: absolute;
+    top: 311px;
+    left: 0;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--primary-colorsbrand-green);
+    font-size: 14px;
+    letter-spacing: 1.12px;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
